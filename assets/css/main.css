@@ -1,0 +1,100 @@
+/* main.css */
+
+
+/* @import "vendors/reset.css"; */
+
+@import "vendors/normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+/* font-family: 'VT323', monospace; */
+
+
+/* font-family: 'Nova Mono', monospace; */
+
+
+/* typography */
+
+p,
+div,
+footer {
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Nova Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+blockquote,
+div,
+header,
+footer {
+    color: #0F0;
+}
+
+
+/* Main Navigation */
+
+nav a {
+    font-family: 'Novo Mono', monospace;
+    display: block;
+    padding: 0.6rem;
+    text-decoration: none;
+}
+
+nav a {
+    color: #0F0;
+}
+
+nav a:visited {
+    color: #F0F;
+}
+
+nav a:hover {
+    color: #00BFFF;
+}
+
+nav>ul {
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav .sub-nav {
+    height: 0;
+    overflow: hidden;
+}
+
+nav a+.sub-nav {
+    height: 150px;
+    transition: height 0.3s;
+}
+
+
+/* behold the awesome power of pseudo-selectors within the cascade! */
+
+nav a:hover+.sub-nav,
+nav .sub-nav:hover {
+    height: 150px;
+}
+
+
+/* Background */
+
+body {
+    padding: 5%;
+    background-color: #000;
+}
