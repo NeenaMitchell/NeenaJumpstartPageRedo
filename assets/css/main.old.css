@@ -4,10 +4,10 @@
 /* @import "vendors/reset.css"; */
 
 @import "vendors/normalize.css";
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
-/* font-family: 'VT323', monospace; */
+/* font-family: 'Eater', cursive; */
 
 
 /* font-family: 'Nova Mono', monospace; */
@@ -18,7 +18,7 @@
 p,
 div,
 footer {
-    font-family: 'VT323', monospace;
+    font-family: 'Eater', cursive;
     font-size: 1.2rem;
 }
 
@@ -65,7 +65,7 @@ nav a {
 }
 
 nav a {
-    color: #0F0;
+    color: greenyellow;
 }
 
 nav a:visited {
@@ -94,6 +94,7 @@ nav .sub-nav:hover {
 /* Background */
 
 body {
+    background-image: url('download-1.jpg');
     padding: 5%;
-    background-color: #000;
+    background-color: blueviolet;
 }
