@@ -4,13 +4,12 @@
 /* @import "vendors/reset.css"; */
 
 @import "vendors/normalize.css";
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Metal Mania', cursive; */
 
-/* font-family: 'VT323', monospace; */
 
-
-/* font-family: 'Nova Mono', monospace; */
+/* font-family: 'Courgett', cursive; */
 
 
 /* typography */
@@ -18,7 +17,7 @@
 p,
 div,
 footer {
-    font-family: 'VT323', monospace;
+    font-family: 'Courgett', cursive;
     font-size: 1.2rem;
 }
 
@@ -27,7 +26,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Nova Mono', monospace;
+    font-family: 'Kaushan', cursive;
 }
 
 h1,
@@ -47,7 +46,7 @@ footer {
 /* Main Navigation */
 
 nav a {
-    font-family: 'Novo Mono', monospace;
+    font-family: 'Metal Mania', cursive;
     display: block;
     padding: 0.6rem;
     text-decoration: none;

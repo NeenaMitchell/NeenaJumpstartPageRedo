@@ -4,7 +4,7 @@
 /* @import "vendors/reset.css"; */
 
 @import "vendors/normalize.css";
-@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
 /* font-family: 'Eater', cursive; */
@@ -18,7 +18,7 @@
 p,
 div,
 footer {
-    font-family: 'Eater', cursive;
+    font-family: 'Courgett', cursive;
     font-size: 1.2rem;
 }
 
@@ -27,7 +27,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Nova Mono', monospace;
+    font-family: 'Kaushan', cursive;
 }
 
 h1,
@@ -58,7 +58,7 @@ nav ul {
 }
 
 nav a {
-    font-family: 'Novo Mono', monospace;
+    font-family: 'Courgett', cursive;
     padding: 0.7rem;
     display: block;
     text-decoration: none;
