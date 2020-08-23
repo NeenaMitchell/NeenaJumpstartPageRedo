@@ -94,7 +94,7 @@ nav .sub-nav:hover {
 /* Background */
 
 body {
-    background-image: url('download-1.jpg');
+    background-image: url('../images/images-1.jpg'); 
     padding: 5%;
     background-color: blueviolet;
 }
